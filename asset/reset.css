@@ -1,0 +1,11 @@
+/*Resets the box size of every element*/
+*{
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+    display: block;
+    width: 100%;
+}

@@ -1,0 +1,130 @@
+/*--------Global variables--------*/
+:root{
+    /*centering sections*/
+    --sec-margin: 0 auto;
+    --sec-center: 50rem;
+}
+
+
+
+/*--------CSS for header--------*/
+
+/*New header*/
+header{
+    width:100%;
+    height: 100%;
+    /*CSS Smooth Scroll*/
+}
+
+.navbar{
+    /*need another property to display at the top (NOT POSITION FIXED*/
+    width:100%;
+    height: 40px;
+    background-color: rgba(85, 0, 255, 0.607);
+    z-index: 1;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.navbar ul li{
+    margin: 0 1rem;
+    padding: 1rem;
+    color: #fff;
+}
+
+.navbar ul li:hover{
+    color: yellow;
+    cursor: pointer;
+}
+
+
+
+/* OLD header {
+    padding: 1rem 2rem;
+    text-align: center;
+    color: white;
+    background-color: rgba(85, 0, 255, 0.607);
+    font-size: 30px;
+    justify-content: space-between;
+}
+.nav-links li {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    list-style: none;
+    display: inline;
+}
+.nav-links li:hover{
+    color: yellow;
+}*/
+
+
+/*--------CSS for scrollable background--------*/
+
+.background{
+/*Bg img fill viewport, photo scaled, and sent to the back*/
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    z-index: -5;
+}
+
+h2, p {
+/*Omits spaces and centers text*/
+    margin: var(--sec-margin);
+    max-width: var(--sec-center);
+}
+
+/*Spacing with-in sections*/
+h2{
+    padding: 4rem 4rem;
+}
+
+/*Spacing with paragraphs*/
+p{
+    padding: 0 2rem 1rem;
+}
+
+/*Allows bg img to show*/
+.first-section{
+    margin-top: calc(100vh - 6rem);
+}
+
+/*Welcome message fixed, centered, and put to the bg*/
+h1{
+    font-size: 100px;
+    color:rgba(85, 0, 255, 0.607);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    text-shadow: 0 0 30px rbg(0 0 0 / 70%);
+    transform: translate(-50%, -50%);
+    z-index: -4;
+    text-align: center;
+}
+
+
+/*--------About me section--------*/
+
+
+#profile-pic{
+    width:200px;
+    height:auto;
+    border-radius: 50%;
+    margin: 0 auto;
+    max-width: 50rem;
+    margin: var(--sec-margin);
+    max-width: var(--sec-center);
+}
+
+section{
+    background-color: blanchedalmond;
+}
+/*CSS for footer*/
