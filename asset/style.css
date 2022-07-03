@@ -135,20 +135,18 @@ h1{
 /*--------Skills section(HELP)--------*/
 
 /* Breaking page formatting */
-/* .skills-section {
-    max-width: 0%;
+.skills-section {
+    width: 100%;
     display: flex;
+    justify-content: space-around;
+    position: relative
 }
 
 #skills {
+    position: relative;
     padding: 0%;
     margin: 0%;
 }
-
-.skill-list{
-    margin: 0%;
-    columns: 4;
-} */
 
 /*--------Project section--------*/
 
