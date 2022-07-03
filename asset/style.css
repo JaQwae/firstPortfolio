@@ -186,3 +186,9 @@ h1{
 }
 
 /*--------Footer section--------*/
+
+h3{
+    padding: 2rem 0 2rem;
+    color:aquamarine;
+    text-align:center;
+}
