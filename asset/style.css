@@ -100,7 +100,7 @@ h1{
 }
 
 .even-section{
-    background-image: linear-gradient(to right, black,rgb(85, 0, 255));
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.92),rgb(85, 0, 255));
 }
 
 
@@ -114,6 +114,7 @@ h1{
     max-width: 50rem;
     margin: var(--sec-margin);
     max-width: var(--sec-center);
+    padding-top: 3rem;
 }
 
 #name{
@@ -164,6 +165,14 @@ h1{
 
 
 /*--------Project section--------*/
+.project-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.grid-container{
+    display: grid;
+}
 
 /*--------Contact me section--------*/
 
