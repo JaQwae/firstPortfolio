@@ -226,18 +226,25 @@ h1{
     grid-auto-rows: minmax(200px, auto);
     grid-auto-columns: minmax(200px, auto);
     grid-gap: 20px;
+    padding-bottom: 6rem;
 }
 
+/* allows this to span the full column  */
 .grid-item-1{
     background-color: white;
+    grid-column: span 4;
 }
 
+/* allows this to span 2 rows  */
 .grid-item-2{
     background-color: white;
+    grid-row: span 2;
 }
 
+/* allows this to span 2 columns  */
 .grid-item-3{
     background-color: white;
+    grid-column: span 2;
 }
 
 .grid-item-4{
@@ -252,21 +259,22 @@ h1{
     background-color: white;
 }
 
+/* allows this to span 2 rows  */
 .grid-item-7{
     background-color: white;
+    grid-row: span 2;
 }
 
+/* allows this to span 2 columns  */
 .grid-item-8{
     background-color: white;
+    grid-column: span 2;
 }
 
 .grid-item-9{
     background-color: white;
 }
 
-.grid-item-10{
-    background-color: white;
-}
 
 
 /*--------Contact me section--------*/
