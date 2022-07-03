@@ -132,21 +132,28 @@ h1{
 }
 
 
-/*--------Skills section(HELP)--------*/
+/*--------Skills section--------*/
 
-/* Breaking page formatting */
+/* Get rid of extra spacing on bottom */
+#connector-space {
+    padding: 0%;
+}
+
 .skills-section {
     width: 100%;
     display: flex;
+    /* display: inline; */
     justify-content: space-around;
-    position: relative
 }
 
-#skills {
-    position: relative;
-    padding: 0%;
-    margin: 0%;
+#skills{
+    align-self: center;
 }
+
+.skills-list{
+    list-style: none;
+}
+
 
 /*--------Project section--------*/
 
