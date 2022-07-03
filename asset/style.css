@@ -4,6 +4,7 @@
     --sec-margin: 0 auto;
     --sec-center: 50rem;
     --purple-color: rgba(85, 0, 255, 0.607);
+    --bg-grid-squares: conic-gradient(rgba(255, 0, 0, 0.377),orange, blue, rgba(255, 166, 0, 0.491)) ;
 }
 
 
@@ -231,48 +232,48 @@ h1{
 
 /* allows this to span the full column  */
 .grid-item-1{
-    background-color: white;
     grid-column: span 4;
+    background-image: var(--bg-grid-squares);
 }
 
 /* allows this to span 2 rows  */
 .grid-item-2{
-    background-color: white;
     grid-row: span 2;
+    background-image: var(--bg-grid-squares);
 }
 
 /* allows this to span 2 columns  */
 .grid-item-3{
-    background-color: white;
     grid-column: span 2;
+    background-image: var(--bg-grid-squares);
 }
 
 .grid-item-4{
-    background-color: white;
+    background-image: var(--bg-grid-squares);
 }
 
 .grid-item-5{
-    background-color: white;
+    background-image: var(--bg-grid-squares);
 }
 
 .grid-item-6{
-    background-color: white;
+    background-image: var(--bg-grid-squares);
 }
 
 /* allows this to span 2 rows  */
 .grid-item-7{
-    background-color: white;
     grid-row: span 2;
+    background-image: var(--bg-grid-squares);
 }
 
 /* allows this to span 2 columns  */
 .grid-item-8{
-    background-color: white;
     grid-column: span 2;
+    background-image: var(--bg-grid-squares);
 }
 
 .grid-item-9{
-    background-color: white;
+    background-image: var(--bg-grid-squares);
 }
 
 
