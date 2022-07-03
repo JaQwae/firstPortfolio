@@ -219,8 +219,50 @@ h1{
 
 .grid-container{
     display: grid;
+    justify-content: center;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
 }
 
+.grid-item-1{
+    background-color: white;
+}
+
+.grid-item-2{
+    background-color: white;
+}
+
+.grid-item-3{
+    background-color: white;
+}
+
+.grid-item-4{
+    background-color: white;
+}
+
+.grid-item-5{
+    background-color: white;
+}
+
+.grid-item-6{
+    background-color: white;
+}
+
+.grid-item-7{
+    background-color: white;
+}
+
+.grid-item-8{
+    background-color: white;
+}
+
+.grid-item-9{
+    background-color: white;
+}
+
+.grid-item-10{
+    background-color: white;
+}
 
 
 /*--------Contact me section--------*/
