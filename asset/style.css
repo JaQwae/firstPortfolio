@@ -220,8 +220,8 @@ h1{
 .grid-container{
     display: grid;
     justify-content: center;
-    grid-template-columns: 200px 200px 200px 200px;
-    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: repeat(4, 200px);
+    grid-template-rows: repeat(3, 200px);
 }
 
 .grid-item-1{
