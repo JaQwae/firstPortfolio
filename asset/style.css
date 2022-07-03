@@ -129,8 +129,12 @@ h1{
 
 .even-section p {
     text-align: center;
+    color: #fff;
 }
 
+.even-section h2 {
+    color: #fff;
+}
 
 /*--------Skills section--------*/
 
