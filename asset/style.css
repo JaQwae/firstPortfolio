@@ -170,12 +170,15 @@ h1{
     border: groove;
     text-align: center;
     margin: 4px;
+    color: yellow;
+    background-image: radial-gradient(var(--purple-color),black);
+    border-color: black;
 }
 
+/* Hover effect on skill list items */
 .skills-list li:hover{
-    color: yellow;
-    background-image: radial-gradient(black, var(--purple-color));
-    border-color: black;
+    color: white;
+    background-image: radial-gradient(black, rgba(242, 242, 149, 0.947), black);
 }
 
 
