@@ -93,6 +93,15 @@ h1{
 
 
 
+/*--------Welcome text (maybe delete if viewing under a certain px)--------*/
+/* .welcome-text-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+} */
+
+
+
 /*--------Section formatting--------*/
 
 .odd-section{
@@ -103,9 +112,24 @@ h1{
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.92),rgb(85, 0, 255));
 }
 
+.even-section p {
+    text-align: center;
+    color: #fff;
+}
+
+.even-section h2 {
+    color: #fff;
+}
+
+
 
 /*--------Profile pic and name section--------*/
 
+.profile-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
 #profile-pic{
     width: 250px;
     height:auto;
@@ -122,20 +146,21 @@ h1{
     font-size: 50px;
 }
 
+
+
 /*--------About me section--------*/
 #about{
     text-align: center;
     font-size: 30;
 }
 
-.even-section p {
-    text-align: center;
-    color: #fff;
+.about-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
-.even-section h2 {
-    color: #fff;
-}
+
 
 /*--------Skills section--------*/
 
@@ -148,6 +173,7 @@ h1{
     width: 100%;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 #skills{
@@ -182,15 +208,19 @@ h1{
 }
 
 
+
 /*--------Project section--------*/
 .project-section{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .grid-container{
     display: grid;
 }
+
+
 
 /*--------Contact me section--------*/
 
@@ -198,6 +228,7 @@ h1{
     width: 100%;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 #connect{
@@ -213,6 +244,8 @@ h1{
     align-items: center;
     flex-grow: 3;
 }
+
+
 
 /*--------Footer section--------*/
 
