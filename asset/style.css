@@ -122,5 +122,36 @@ h1{
 }
 
 /*--------About me section--------*/
+#about{
+    text-align: center;
+    font-size: 30;
+}
 
-/*CSS for footer*/
+.even-section p {
+    text-align: center;
+}
+
+
+/*--------Skills section(HELP)--------*/
+
+/* Breaking page formatting */
+/* .skills-section {
+    max-width: 0%;
+    display: flex;
+}
+
+#skills {
+    padding: 0%;
+    margin: 0%;
+}
+
+.skill-list{
+    margin: 0%;
+    columns: 4;
+} */
+
+/*--------Project section--------*/
+
+/*--------Contact me section--------*/
+
+/*--------Footer section--------*/
