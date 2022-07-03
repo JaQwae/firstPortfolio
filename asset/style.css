@@ -218,10 +218,15 @@ h1{
 }
 
 .grid-container{
+    /* Grid formatting */
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(4, 200px);
     grid-template-rows: repeat(3, 200px);
+    grid-auto-rows: minmax(200px, auto);
+    grid-auto-columns: minmax(200px, auto);
+    column-gap: 20px;
+    row-gap: 20px;
 }
 
 .grid-item-1{
