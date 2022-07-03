@@ -163,6 +163,15 @@ h1{
     flex-grow: 3;
 }
 
+/* Layout of skills items */
+.skills-list li{
+    border-color: black;
+    border-width: medium;
+    border: groove;
+    text-align: center;
+    margin: 4px;
+}
+
 
 /*--------Project section--------*/
 .project-section{
