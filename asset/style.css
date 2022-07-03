@@ -172,6 +172,12 @@ h1{
     margin: 4px;
 }
 
+.skills-list li:hover{
+    color: yellow;
+    background-image: radial-gradient(black, var(--purple-color));
+    border-color: black;
+}
+
 
 /*--------Project section--------*/
 .project-section{
