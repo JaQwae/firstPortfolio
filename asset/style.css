@@ -146,23 +146,43 @@ h1{
 .skills-section {
     width: 100%;
     display: flex;
-    /* display: inline; */
     justify-content: space-around;
 }
 
 #skills{
     align-self: center;
+    flex-shrink: 3;
 }
 
 .skills-list{
     list-style: none;
     align-self: center;
     column-count: 4;
+    flex-wrap: wrap;
+    flex-grow: 3;
 }
 
 
 /*--------Project section--------*/
 
 /*--------Contact me section--------*/
+
+.connect-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#connect{
+    align-self: start;
+    flex-shrink: 3;
+}
+
+.connect-ways{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-grow: 3;
+}
 
 /*--------Footer section--------*/
