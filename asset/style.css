@@ -205,6 +205,7 @@ h1{
 .skills-list li:hover{
     color: white;
     background-image: radial-gradient(black, rgba(242, 242, 149, 0.947), black);
+    cursor: pointer;
 }
 
 
