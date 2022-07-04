@@ -238,8 +238,11 @@ h1{
     background-image: var(--bg-grid-squares);
 }
 
-.grid-item-1 .cta-button{
-    background-color: aqua;
+.grid-item-1 div a{
+    color:black;
+    text-decoration: none;
+    background-color: red;
+    border-radius: 25px;
 }
 
 /* allows this to span 2 rows  */
