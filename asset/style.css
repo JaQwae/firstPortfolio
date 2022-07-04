@@ -175,6 +175,7 @@ h1{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    padding: 4rem;
 }
 
 #skills{
@@ -289,6 +290,7 @@ h1{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    padding: 4rem;
 }
 
 #connect{
