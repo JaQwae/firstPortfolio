@@ -34,13 +34,14 @@ header{
     justify-content: space-between;
 }
 
-.navbar ul li{
+.navbar ul a{
     margin: 0 1rem;
     padding: 1rem;
     color: #fff;
+    text-decoration: none;
 }
 
-.navbar ul li:hover{
+.navbar ul a:hover{
     color: yellow;
     cursor: pointer;
 }
