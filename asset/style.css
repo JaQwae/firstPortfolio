@@ -228,9 +228,8 @@ h1{
     grid-template-rows: repeat(3, 200px);
     grid-auto-rows: minmax(400px, auto);
     grid-auto-columns: minmax(400px, auto);
-    grid-gap: 20px;
+    grid-gap: 50px;
     padding-bottom: 6rem;
-    flex-wrap: wrap;
 }
 
 /* allows this to span the full column  */
@@ -239,23 +238,41 @@ h1{
     background-image: var(--bg-grid-squares);
 }
 
+.grid-item-1 .cta-button{
+    background-color: aqua;
+}
+
 /* allows this to span 2 rows  */
 .grid-item-2{
     background-image: var(--bg-grid-squares);
-    border-radius: var(--rounded-rec)
+}
+
+.grid-item-2 .cta-button{
+    background-color: aqua;
 }
 
 .grid-item-3{
     background-image: var(--bg-grid-squares);
 }
 
+.grid-item-3 .cta-button{
+    background-color: aqua;
+}
+
 .grid-item-4{
     background-image: var(--bg-grid-squares);
 }
 
+.grid-item-4 .cta-button{
+    background-color: aqua;
+}
+
 .grid-item-5{
     background-image: var(--bg-grid-squares);
-    border-radius: var(--rounded-rec)
+}
+
+.grid-item-5 .cta-button{
+    background-color: aqua;
 }
 
 
