@@ -5,6 +5,7 @@
     --sec-center: 50rem;
     --purple-color: rgba(85, 0, 255, 0.607);
     --bg-grid-squares: conic-gradient(rgba(255, 0, 0, 0.377),orange, blue, rgba(255, 166, 0, 0.491)) ;
+    --white: white;
 }
 
 
@@ -114,13 +115,9 @@ h1{
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.92),rgb(85, 0, 255));
 }
 
-.even-section p {
+.even-section h2, p {
     text-align: center;
-    color: #fff;
-}
-
-.even-section h2 {
-    color: #fff;
+    color: var(--white);
 }
 
 
