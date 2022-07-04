@@ -230,6 +230,7 @@ h1{
     grid-auto-columns: minmax(200px, auto);
     grid-gap: 20px;
     padding-bottom: 6rem;
+    flex-wrap: wrap;
 }
 
 /* allows this to span the full column  */
