@@ -223,7 +223,7 @@ h1{
 /* Grid formatting */
 .grid-container{
     display: grid;
-    justify-content: center;
+    justify-content: space-around;
     grid-template-columns: repeat(2, 300px);
     grid-template-rows: repeat(3, 200px);
     grid-auto-rows: minmax(400px, auto);
@@ -234,8 +234,10 @@ h1{
 
 /* allows this to span the full column  */
 .grid-item-1{
-    grid-column: span 2;
+    grid-area: span 2;
     background-image: var(--bg-grid-squares);
+    max-height: 300px;
+    max-width: 300px;
 }
 
 .grid-item-1 div a{
