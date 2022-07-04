@@ -218,8 +218,8 @@ h1{
     flex-wrap: wrap;
 }
 
+/* Grid formatting */
 .grid-container{
-    /* Grid formatting */
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(4, 200px);
@@ -301,17 +301,32 @@ h1{
     flex-grow: 3;
 }
 
+/* Layout of connect items */
+.connect-ways a{
+    text-decoration: none;
+    color: yellow;
+    background-image: radial-gradient(var(--purple-color),black);
+    border-color: black;
+    padding: 5px 60px;
+}
+
+/* Hover effect on connect list items */
+.connect-ways a:hover{
+    color: white;
+    background-image: radial-gradient(black, rgba(242, 242, 149, 0.947), black);
+    cursor: pointer;
+}
+
 
 
 /*--------Footer section--------*/
 
 h3{
     padding: 2rem 0 2rem;
-    color:aquamarine;
+    color:black;
     text-align:center;
 }
 
 footer{
     background-image: linear-gradient(rgba(242, 242, 149, 0.947),rgba(0, 0, 0, 0));
 }
-
