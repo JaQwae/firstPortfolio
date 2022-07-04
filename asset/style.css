@@ -6,6 +6,8 @@
     --purple-color: rgba(85, 0, 255, 0.607);
     --bg-grid-squares: conic-gradient(rgba(255, 0, 0, 0.377),orange, blue, rgba(255, 166, 0, 0.491)) ;
     --white: white;
+    --grid-circle: 50%;
+    --rounded-rec: 50px;
 }
 
 
@@ -202,7 +204,7 @@ h1{
 
 /* Hover effect on skill list items */
 .skills-list li:hover{
-    color: white;
+    color: var(--white);
     background-image: radial-gradient(black, rgba(242, 242, 149, 0.947), black);
     cursor: pointer;
 }
@@ -238,6 +240,7 @@ h1{
 .grid-item-2{
     grid-row: span 2;
     background-image: var(--bg-grid-squares);
+    border-radius: var(--rounded-rec)
 }
 
 /* allows this to span 2 columns  */
@@ -248,10 +251,12 @@ h1{
 
 .grid-item-4{
     background-image: var(--bg-grid-squares);
+    border-radius: var(--grid-circle)
 }
 
 .grid-item-5{
     background-image: var(--bg-grid-squares);
+    border-radius: var(--grid-circle)
 }
 
 .grid-item-6{
@@ -272,6 +277,7 @@ h1{
 
 .grid-item-9{
     background-image: var(--bg-grid-squares);
+    border-radius: var(--rounded-rec)
 }
 
 
@@ -311,7 +317,7 @@ h1{
 
 /* Hover effect on connect list items */
 .connect-ways a:hover{
-    color: white;
+    color: var(--white);
     background-image: radial-gradient(black, rgba(242, 242, 149, 0.947), black);
     cursor: pointer;
     transition: padding 2s;
