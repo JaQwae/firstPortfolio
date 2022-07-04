@@ -308,6 +308,7 @@ h1{
     background-image: radial-gradient(var(--purple-color),black);
     border-color: black;
     padding: 5px 60px;
+    
 }
 
 /* Hover effect on connect list items */
@@ -315,6 +316,8 @@ h1{
     color: white;
     background-image: radial-gradient(black, rgba(242, 242, 149, 0.947), black);
     cursor: pointer;
+    transition: padding 2s;
+    padding: 20px 100px
 }
 
 
