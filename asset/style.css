@@ -235,6 +235,11 @@ h1{
     background-image: var(--bg-grid-squares);
 }
 
+/* Trying to get image to scale down */
+.grid-item-1 div img{
+    object-fit: cover;
+}
+
 .grid-item-1 div a{
     color:black;
     text-decoration: none;
