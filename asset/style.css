@@ -240,11 +240,20 @@ h1{
     object-fit: cover;
 }
 
+/* Style for button to deploy to project 1 */
 .grid-item-1 div a{
     color:black;
     text-decoration: none;
-    background-color: red;
+    background-color:blanchedalmond;
     border-radius: 25px;
+    margin: 5px;
+}
+
+.grid-item-1 div a:hover{
+    color: white;
+    background-color: aqua;
+    border-color: black;
+    border-style: solid;
 }
 
 /* allows this to span 2 rows  */
