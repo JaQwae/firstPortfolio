@@ -6,8 +6,6 @@
     --purple-color: rgba(85, 0, 255, 0.607);
     --bg-grid-squares: conic-gradient(rgba(255, 0, 0, 0.377),orange, blue, rgba(255, 166, 0, 0.491)) ;
     --white: white;
-    --grid-circle: 50%;
-    --rounded-rec: 50px;
 }
 
 
@@ -375,7 +373,6 @@ footer{
         display: flex;
         flex-direction: column;
         background-color: var(--purple-color);
-
     }
 
     /* Welcome message vanish */
