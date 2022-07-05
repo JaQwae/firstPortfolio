@@ -6,8 +6,8 @@
 This project is my attempted at making a professional portfolio using only css. It includes various sections that displays general information about me, some skills the I've obtained, recent projects that I have worked on, as well as a way to contact me.
 
 ##Features
-I've included the features below using striclty css
-1. An interface in which content can scroll in the foreground and the backgroud images stay fix.
+I've included the features below using strictly css
+1. An interface in which content can scroll in the foreground and the background images stay fix.
 2. A operational navigation bar that allow user to get directly to a section of their choosing.
 3. Projects and contact information that can be access at the click of a button.
 
