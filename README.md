@@ -38,6 +38,15 @@ Whats to come:
 
 ## Images
 
+![portfolio picture 1](./images/firstportfolio%20screenshot%201.png)
+
+![portfolio picture 2](./images/firstportfolio%20screenshot%202.png)
+
+![portfolio picture 3](./images/firstportfolio%20screenshot%203.png)
+
+![portfolio picture 4](./images/firstportfolio%20screenshot%204.png)
+
+![portfolio picture 5](./images/firstportfolio%20screenshot%205.png)
   
 
 ## Credits
