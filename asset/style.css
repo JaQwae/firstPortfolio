@@ -239,55 +239,42 @@ h1{
 }
 
 /* Style for button to deploy to project  */
-.grid-item-1 div a{
-    color:black;
-    text-decoration: none;
-    background-color:blanchedalmond;
-    border-radius: 25px;
-    margin: 5px;
-}
-
-.grid-item-1 div a:hover{
-    color: white;
-    background-color: aqua;
-    border-color: black;
-    border-style: solid;
-}
 
 /* allows this to span 2 rows  */
 .grid-item-2{
     background-image: var(--bg-grid-squares);
 }
 
-.grid-item-2 .cta-button{
-    background-color: aqua;
-}
 
 .grid-item-3{
     background-image: var(--bg-grid-squares);
-}
-
-.grid-item-3 .cta-button{
-    background-color: aqua;
 }
 
 .grid-item-4{
     background-image: var(--bg-grid-squares);
 }
 
-.grid-item-4 .cta-button{
-    background-color: aqua;
-}
 
 .grid-item-5{
     background-image: var(--bg-grid-squares);
 }
 
-.grid-item-5 .cta-button{
-    background-color: aqua;
+
+/* .cta-button{
+    color:black;
+    text-decoration: none;
+    background-color:blanchedalmond;
+    border-radius: 25px;
+    margin: 5px;
+} */
+
+.cta-button a {
+    color:black;
+    text-decoration: none;
+    background-color:blanchedalmond;
+    border-radius: 25px;
+    margin: 5px;
 }
-
-
 
 /*--------Contact me section--------*/
 
@@ -333,6 +320,10 @@ h1{
     padding: 10px 100px
 }
 
+.project-side-img {
+    width:740px;
+    height: 600px;
+}
 
 
 /*--------Footer section--------*/
