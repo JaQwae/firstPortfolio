@@ -260,14 +260,7 @@ h1{
 }
 
 
-/* .cta-button{
-    color:black;
-    text-decoration: none;
-    background-color:blanchedalmond;
-    border-radius: 25px;
-    margin: 5px;
-} */
-
+/* styling for buttons */
 .cta-button a {
     color:black;
     text-decoration: none;
